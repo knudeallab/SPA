@@ -7,7 +7,8 @@ stage = production :
 - undefined
 
 [clutch/code/api]
-stage = production :
+
+stage = development
 - localhost:4000/
 
 stage = production :
