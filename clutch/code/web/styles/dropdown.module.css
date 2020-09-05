@@ -1,0 +1,94 @@
+.dropdown-row-outer {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .dropdown-wrapper {
+    position: relative;
+    font-size: 28px;
+    color: #000;
+    background-color: #fff;
+    width: 368px;
+    height: 52px;
+    padding: 5px;
+    border-style: none;
+    text-align: center;
+    box-shadow: 5px 5px 5px 0px rgba(226,226,226,1);
+    text-align-last:center;
+    cursor: pointer;
+  }
+  
+  .dropdown-wrapper-active {
+    position: relative;
+    font-size: 28px;
+    font-weight: 300;
+    color: #000;
+    background-color: #fff;
+    width: 368px;
+    height: 52px;
+    padding: 5px;
+    border-style: none;
+    text-align: center;
+    box-shadow: 5px 5px 5px 0px rgba(226,226,226,1);
+    text-align-last:center;
+    cursor: pointer;
+  }
+  
+  .dropdown-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    padding-left: 24px;
+  }
+
+  .dropdown-header div {
+    font-size: 28px;
+    color: #000;
+  }
+
+  .dropdown-header img {
+    width: 12.7px;
+    height: 8.3px;
+  }
+  
+  .dropdown-list {
+    padding-left: 0;
+    position: absolute;
+    margin-top: 12.5px;
+    padding-bottom: 5px;
+    padding-top: 0;
+    max-height: 500px;
+    overflow-y: scroll;
+  }
+  
+  .dropdown-list-item {
+    line-height: 1.46;
+    list-style: none;
+    margin-top: -1px;
+    margin-left: -4px;
+    border-left: 1px solid #e2e2e2;
+    border-right: 1px solid #e2e2e2;
+    font-size: 28px;
+    color: rgba(0, 0, 0, 0.5);
+    background-color: #fff;
+    width: 368px;
+    height: 52px;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 5px 5px 5px 0px rgba(226,226,226,1);
+  }
+
+  .dropdown-list .dropdown-list-item :hover {
+    color: #000;
+  }
+
+  .dropdown-list-item :last-child {
+    border-bottom: 1px solid #e2e2e2;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    margin-bottom: 10px;
+  }

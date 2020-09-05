@@ -1,0 +1,9 @@
+.container {
+  min-height: 100vh;
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.6) 0%, rgba(255, 255, 255, 0) 100%), #2E2B2B;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+}

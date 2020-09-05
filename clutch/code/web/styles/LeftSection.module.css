@@ -1,0 +1,43 @@
+.left-section {
+  width: 273px;
+  display: flex;
+  flex-direction: column;
+  padding-top: 109px;
+  padding-left: 32px;
+  justify-content: space-between;
+}
+
+.tab-wrapper {}
+
+.icon {
+  width: 28px;
+  height: 28px;
+  margin-left: 10px;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 23px;
+  cursor: pointer;
+}
+
+.row .label {
+  font-size: 40px;
+  line-height: 1.35;
+}
+
+.label {
+  color: #fff;
+  font-size: 30px;
+  line-height: 1.36;
+  cursor: pointer;
+}
+
+.logo {
+  margin-bottom: 23px;
+  font-size: 35px;
+  line-height: 48px;
+  color: rgba(255, 255, 255, 0.5);
+}
